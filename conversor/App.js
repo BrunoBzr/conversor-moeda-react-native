@@ -8,7 +8,7 @@ export default function App() {
   const [valor, setValor] = useState("");
   const [resultado, setResultado] = useState(null);
 
-  const taxaDolar = 5.65; // exemplo fixo (1 USD = 5.65 BRL)
+  const taxaDolar = 5.65;
 
   const converter = () => {
     if (!valor || isNaN(valor)) {
