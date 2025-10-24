@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>💱 Conversor de Moeda</Text>
+      <Text style={styles.title}> Conversor de Moeda</Text>
       <Text style={styles.subtitle}>De Real (BRL) para Dólar (USD)</Text>
 
       <Input

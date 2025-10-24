@@ -11,14 +11,14 @@ export default function ConvertButton({ onPress }) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: "#007BFF",
+    backgroundColor: "#c1ec6bff",
     paddingVertical: 12,
     paddingHorizontal: 30,
     borderRadius: 8,
     marginBottom: 20,
   },
   text: {
-    color: "#fff",
+    color: "#266589ff",
     fontWeight: "bold",
     fontSize: 16,
   },
