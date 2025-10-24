@@ -5,18 +5,22 @@ import Result from "./componentes/Result";
 import ConvertButton from "./componentes/ConvertButton";
 
 export default function App() {
+
   const [valor, setValor] = useState("");
+
   const [resultado, setResultado] = useState(null);
 
   const taxaDolar = 5.65;
 
   const converter = () => {
+
     if (!valor || isNaN(valor)) {
       setResultado("Digite um número válido!");
       return;
     }
     const convertido = (parseFloat(valor) / taxaDolar).toFixed(2);
     setResultado(`USD ${convertido}`);
+    
   };
 
   return (
